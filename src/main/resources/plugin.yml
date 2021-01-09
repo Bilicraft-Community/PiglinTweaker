@@ -1,0 +1,4 @@
+name: PiglinTweaker
+version: ${project.version}
+main: com.mcsunnyside.piglintweaker.PiglinTweaker
+api-version: 1.16
