@@ -35,5 +35,7 @@ public final class PiglinTweaker extends JavaPlugin implements Listener {
             return;
         }
         e.getDrops().removeIf(item -> item.getType() == Material.GOLDEN_SWORD);
+        e.getDrops().removeIf(item -> item.getType() == Material.GOLDEN_AXE);
+        e.getDrops().removeIf(item -> item.getType() == Material.CROSSBOW);
     }
 }
